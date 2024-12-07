@@ -111,10 +111,10 @@ export default function Navbar() {
   onClick={handleClick}
   
   sx={{
-    paddingLeft: { xs: '220px', sm: '460px', md: '30px', lg: '50px' }, // Adjust padding for each breakpoint
+    paddingLeft: { xs: '220px', sm: '460px', md: '30px', lg: '50px' }, 
     paddingTop: { xs: '30px', sm: '30px', md: '30px', lg: '40px' },
     position: 'absolute',
-    maxWidth: '100%', // Ensures responsive scaling
+    maxWidth: '100%', 
     height: 'auto',
     display: open ? 'none' : 'block',
   }}
@@ -129,10 +129,10 @@ export default function Navbar() {
   onClick={handleClick}
   sx={{
     display: open ? 'block' : 'none',
-    paddingLeft: { xs: '220px', sm: '460px', md: '30px', lg: '50px' }, // Adjust padding for each breakpoint
+    paddingLeft: { xs: '220px', sm: '460px', md: '30px', lg: '50px' }, 
     paddingTop: { xs: '30px', sm: '30px', md: '30px', lg: '40px' },
     position: 'absolute',
-    maxWidth: '100%', // Ensures responsive scaling
+    maxWidth: '100%', 
     height: 'auto',
   }}
 />

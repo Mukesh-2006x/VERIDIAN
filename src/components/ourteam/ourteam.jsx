@@ -234,8 +234,8 @@ function Ourteam(){
     modules={[Navigation, Pagination]}
 
     navigation={{
-      nextEl: '.custom-next', // Linked to custom next button
-      prevEl: '.custom-prev', // Linked to custom previous button
+      nextEl: '.custom-next', 
+      prevEl: '.custom-prev', 
     }}
     slidesPerView={1.06} 
     
@@ -282,7 +282,7 @@ function Ourteam(){
         sx={{
           position: 'absolute',
           top: '82%', 
-          left: '38.5%',
+          left: '41%',
           transform: 'translate(-50%, -50%)',
         color:'white',
           
@@ -300,7 +300,7 @@ function Ourteam(){
         sx={{
           position: 'absolute',
           top: '88%', 
-          left: '42%',
+          left: '44.5%',
           transform: 'translate(-50%, -50%)',
         color:'white',
         fontFamily:'DM Sans', 
@@ -381,7 +381,7 @@ function Ourteam(){
         sx={{
           position: 'absolute',
           top: '84.5%', 
-          left: '43%',
+          left: '45%',
           transform: 'translate(-50%, -50%)',
         color:'white',
           
@@ -460,7 +460,7 @@ function Ourteam(){
         sx={{
           position: 'absolute',
           top: '84.5%', 
-          left: '41%',
+          left: '42.5%',
           transform: 'translate(-50%, -50%)',
         color:'white',
           
